@@ -16,7 +16,10 @@
 		<title>Esquare | Home</title>
 	</head>
 	<body>
-
+<div class="floating_button" style="position: fixed;right:0%;top:50%;margin-left: -78px;margin-top:-25px;z-index:9999;background: #fca600;width: 108px;border-top-left-radius: 30px;padding: 5px 0px 5px 20px;border-bottom-left-radius: 30px;">
+<a data-toggle="modal" data-target="#popupModal" href="#" style="color: #1B1718;font-size: 0.8rem;font-weight: 700;line-height: 17px;
+    display: block;">DOWNLOAD BROWSER</a>
+</div>
 		<!-- NAVIGATION BAR -->
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<a class="navbar-brand" href="index.html">
@@ -33,31 +36,25 @@
 				<li class="nav-item active">
 					<a class="nav-link" href="index.html">Home</a>
 				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						About
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="about.html">About Us</a>
-						<a class="dropdown-item" href="contact.html">Contact</a>
-						<a class="dropdown-item" href="news.html">Media</a>
-					</div>
-				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="projects.html">Projects</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="tour.html">3D Tour</a>
+					<a class="nav-link" href="about.html">About</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Knowledge Center
+						Project
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="projects.html">All Projects</a>
+						<a class="dropdown-item" href="tour.html">3D Tour</a>
 						<a class="dropdown-item" href="buyers.html">Buyers Guide</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
 					</div>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="news.html">Media</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">
@@ -301,31 +298,28 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="card">
-							<img src="img/latest-news-img.jpg" class="card-img-top" alt="...">
+							<img src="img/home_main_banner_01.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title"><a href="#">Lucknow Real Estate price will go high.</a></h5>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste commodi reiciendis fugit qui quia ut, non omnis dignissimos minima iure iusto voluptatem nihil.</p>
-								<a class="explore-a" href="#">EXPLORE NOW</a>
+								<a class="explore-a" href="#">READ MORE</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 e-uniq_1111111">
 						<div class="card">
-							<img src="img/latest-news-img.jpg" class="card-img-top" alt="...">
+							<img src="img/home_main_banner_02.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title"><a href="#">E-Square Homes offering Budget Apartment</a></h5>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste commodi reiciendis fugit qui quia ut, non omnis dignissimos minima iure iusto voluptatem nihil.</p>
-								<a class="explore-a" href="#">EXPLORE NOW</a>
+								<a class="explore-a" href="#">READ MORE</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="card">
-							<img src="img/latest-news-img.jpg" class="card-img-top" alt="...">
+							<img src="img/home_main_banner_03.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title"><a href="#">Awas Vikas township in Sithouli Kala</a></h5>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste commodi reiciendis fugit qui quia ut, non omnis dignissimos minima iure iusto voluptatem nihil.</p>
-								<a class="explore-a" href="#">EXPLORE NOW</a>
+								<a class="explore-a" href="#">READ MORE</a>
 							</div>
 						</div>
 					</div>
@@ -559,6 +553,44 @@
 				</div>
 			</footer>
 		</div>
+
+
+
+
+<div class="modal fade" id="popupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">DOWNLOAD BROWSER</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">FULL NAME</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-email" class="col-form-label">EMAIL</label>
+            <input type="email" class="form-control" id="recipient-email">
+          </div>
+          <div class="form-group">
+            <label for="recipient-phone" class="col-form-label">PHONE NUMBER</label>
+            <input type="text" class="form-control" id="recipient-phone">
+          </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 		<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
