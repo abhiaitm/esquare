@@ -37,7 +37,7 @@ a:hover, a:focus { text-decoration: none; }
 .no_gutter { padding: 0; }
 
 /**** NAVIGATION BAR ****/
-.navbar { background-color: #08174A; padding: 0rem 0rem 0 5rem; top: 0;
+.navbar { background-color: #08174A; padding: 0rem 0rem 0 0rem; top: 0;
     position: fixed;
     z-index: 9999;
     width: 100%;}
@@ -53,15 +53,15 @@ a:hover, a:focus { text-decoration: none; }
 .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover, .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:focus { background-color: #08174A; color: #DDB142; }
 .navbar .navbar-nav .nav-item.active .nav-link { color: #DDB142; display: flex; justify-content: center; }
 .navbar .navbar-nav .nav-item.active .nav-link:after { content: " "; height: 3px; width: 1rem; background-color: #DDB142; position: absolute; bottom: 0; border-radius: 1rem; margin: auto; }
-.navbar .navbar-right { background-color: #D6C183; padding: 0.5rem 5rem; width: 40%; display: inline-flex; justify-content: flex-end; }
+.navbar .navbar-right { background-color: #D6C183; padding: 0.5rem 5rem; width: 30%; display: inline-flex; justify-content: flex-end; }
 .navbar .navbar-right .nav-item { margin: 0.5rem 0; }
 .navbar .navbar-right .nav-item .nav-link { margin: 0; }
 .navbar .navbar-right .nav-item .nav-link img { width: 2rem; }
 
 /**** MAIN FRAME ****/
 .main-frame { height: 88vh; width: 100%; display: flex; flex-wrap: nowrap; justify-content: flex-start; position: relative; }
-.main-frame .sub-sec-left { width: 91%; background-color: #08174A; background-image: url(../img/bg-img.jpg); background-size: 100%; background-repeat: no-repeat; background-blend-mode: multiply; }
-.main-frame .sub-sec-right { width: 40%; background-color: #D6C183; }
+.main-frame .sub-sec-left { width: 70%; background-color: #08174A; background-image: url(../img/bg-img.jpg); background-size: 100%; background-repeat: no-repeat; background-blend-mode: multiply; }
+.main-frame .sub-sec-right { width: 30%; background-color: #D6C183; }
 .main-frame .main-frame-overlay { position: absolute; top: 3rem; left: 5rem; right: 5rem; bottom: 0; }
 .main-frame .main-frame-overlay .uniq-grid { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; }
 .main-frame .main-frame-overlay .section-header { margin-bottom: 0; }
@@ -279,6 +279,12 @@ footer svg { position: absolute; right: 1rem; bottom: 0.65rem; color: #DDB142; w
 }
 .home_main_slider .main_slider_header .slider-nav-btn a:hover {
     background-color: #2E2E2E;
+}
+.navbar-dark .navbar-brand {margin-left: 5rem;}
+.work-masterpiece .carousel-inner .card:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
 }
 
 /**** MEDIA QUERIES ****/
