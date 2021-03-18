@@ -43,7 +43,7 @@ a:hover, a:focus { text-decoration: none; }
     width: 100%;}
 #about, #gallery, #amenities, #contact {padding-top:90px;}
 .container-fluid {padding-top:80px;}
-.navbar .navbar-brand img { width: 14rem; }
+.navbar .navbar-brand img { width: auto; }
 .navbar .navbar-nav { align-items: center; }
 .navbar .navbar-nav .nav-item { margin: 0.5rem; position: relative; }
 .navbar .navbar-nav .nav-item .nav-link { color: #fff; font-weight: 200; }
