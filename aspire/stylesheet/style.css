@@ -313,7 +313,8 @@ footer svg { position: absolute; right: 1rem; bottom: 0.65rem; color: #DDB142; w
   .main-frame { height: auto; position: initial; }
   .main-frame .sub-sec-left { background-repeat: repeat; width: 100%; }
   .main-frame .sub-sec-right { display: none; }
-  .main-frame .main-frame-overlay { position: initial; padding: 2rem 1rem; }
+  .main-frame .main-frame-overlay { position: initial; padding: 2rem 1rem;background-color: rgb(8 23 74);
+    background: rgb(8 23 74); }
   .main-frame .main-frame-overlay .section-header { margin-bottom: 1.5rem; width: 100%; }
   .main-frame .main-frame-overlay .section-header .section-title-md { width: 100%; }
   .main-frame .main-frame-overlay .scroll-down { display: none; }
