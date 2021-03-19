@@ -60,7 +60,7 @@ a:hover, a:focus { text-decoration: none; }
 
 /**** MAIN FRAME ****/
 .main-frame { height: 88vh; width: 100%; display: flex; flex-wrap: nowrap; justify-content: flex-start; position: relative; }
-.main-frame .sub-sec-left { width: 70%; background-color: #08174A; background-image: url(../img/bg-img.jpg); background-size: 100%; background-repeat: no-repeat; background-blend-mode: multiply; }
+.main-frame .sub-sec-left { width: 70%; background: rgb(8 23 74); background-image: url(../img/bg-img.jpg); background-size: 100%; background-repeat: no-repeat; background-blend-mode: multiply; }
 .main-frame .sub-sec-right { width: 30%; background-color: #D6C183; }
 .main-frame .main-frame-overlay { position: absolute; top: 3rem; left: 5rem; right: 5rem; bottom: 0; }
 .main-frame .main-frame-overlay .uniq-grid { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; }
@@ -286,6 +286,22 @@ footer svg { position: absolute; right: 1rem; bottom: 0.65rem; color: #DDB142; w
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
 }
+.btn-primary {
+    color: #fff;
+    background-color: #fca600;
+    border-color: #fca600;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fca600;
+    border-color: #fca600;
+}
+.btn-primary:active {
+    color: #fff;
+    background-color: #fca600;
+    border-color: #fca600;
+}
+
 
 /**** MEDIA QUERIES ****/
 @media only screen and (max-width: 767px) { .section-m-p { margin: 0; padding: 2rem 1rem; }
@@ -302,7 +318,7 @@ footer svg { position: absolute; right: 1rem; bottom: 0.65rem; color: #DDB142; w
   .main-frame .main-frame-overlay .section-header .section-title-md { width: 100%; }
   .main-frame .main-frame-overlay .scroll-down { display: none; }
   .a-w-work .work-review .card-img-overlay { bottom: -7rem; width: 93%; }
-  .a-w-work .uniq-grid { margin-top: 9rem; }
+  .a-w-work .uniq-grid { margin-top: 1rem; }
   .a-w-work .section-header { width: 100%; }
   .core-values { padding: 1rem; }
   .core-values .section-header { margin-top: 2rem; margin-bottom: 2rem; }
@@ -325,7 +341,16 @@ footer svg { position: absolute; right: 1rem; bottom: 0.65rem; color: #DDB142; w
   .testimonials .carousel-inner .card { flex: 0 0 100%; max-width: 100%; margin: 0.8rem 0; }
   footer { margin: 0; padding: 1rem; }
   footer ul li { margin: 0.5rem 1rem 0.5rem 0; float: left; }
-  .footer-ftr p { margin-top: 0.5rem; } }
+  .footer-ftr p { margin-top: 0.5rem; }
+  .floating_button {top: 95%!important;}
+  .navbar .navbar-right .nav-item {margin: 0 0;}
+  .navbar .navbar-right {padding: 0rem 5rem;}
+  .container-fluid {padding-top: 124px;}
+  #gallery .section-header {margin-bottom: 15px;}
+  #client-say-video .card iframe {margin-bottom:20px;}
+  #client-say-video .card {background-color: #f9f9f9;}
+
+   }
 @media only screen and (min-width: 768px) and (max-width: 1020px) { .navbar { padding: 0rem; }
   .navbar-dark .navbar-brand { margin-left: 1rem; }
   .navbar .navbar-right { width: 100%; justify-content: space-evenly; flex-direction: row; }
